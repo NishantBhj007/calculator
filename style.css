@@ -1,0 +1,154 @@
+.outer{
+
+ border: 2px solid black;
+ display: flex;
+ flex-direction: column;
+ width: 227px;
+ 
+ gap: 1px;
+height: 18rem;
+background-color: black;
+}
+
+.screen{
+ width: 222px;
+ height: 4rem;
+ border: 1px solid black;
+ color: white;
+ background-color: black;
+ font-size: 29px;
+ 
+}
+.first{
+display: flex;
+flex-direction:row ;
+flex-wrap: wrap;
+width: 100%;
+gap: 1px;
+height: 45px;
+gap: 1;
+background-color: #ebebeb;
+
+}
+.c{
+ width: 112px;
+ background-color: #ebebeb;
+ cursor: pointer;
+}
+
+.del{
+ width: 56px;
+ background-color: #ebebeb;
+ cursor: pointer;
+}
+.ad{
+ width: 56px;
+ background-color: #dfb07e;
+ color: white;
+ cursor: pointer;
+}
+
+@layer second{
+.second{
+ display: flex;
+ flex-direction:row ;
+ flex-wrap: wrap;
+ width: 100%;
+ gap: 1px;
+ height: 45px;
+ gap: 1;
+}
+
+.second button{
+
+ width: 56px;
+ cursor: pointer;
+ 
+}
+.mi{
+
+ width: 60px;
+ background-color: #dfb07e;
+ color: white;
+}
+}
+
+@layer third{
+
+ .third{
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1px;
+  height: 45px;
+  gap: 1;
+
+ }
+ .third button{
+
+  width: 56px;
+  cursor: pointer;
+  
+ }
+
+ .sl{
+
+  width: 60px;
+  background-color: #dfb07e;
+  color: white;
+ }
+}
+
+@layer forth{
+
+ .fourth{
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1px;
+  height: 45px;
+  gap: 1;
+ 
+ }
+ .fourth button{
+  width: 56px;
+  cursor: pointer;
+ }
+
+ .st{
+
+  width: 60px;
+  background-color: #dfb07e;
+  color: white;
+ }
+
+}
+
+
+@layer five{
+
+ .fifth{
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1px;
+  height: 45px;
+  gap: 1;
+ }
+
+.o{
+ width: 170px;
+ cursor: pointer;
+}
+.eq{
+
+ width: 56px;
+ background-color: #dfb07e;
+ color: white;
+ cursor: pointer;
+}
+
+}
