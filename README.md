@@ -1,2 +1,2 @@
 # calculator
-calculates basic mathematical operations
+Link of this website-https://nishantbhj007.github.io/calculator/
